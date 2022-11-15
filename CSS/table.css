@@ -5,8 +5,8 @@
 
 .table {
     border-collapse: collapse;
-    width: 100%;
-    box-shadow: 8px 8px 24px 0px rgba(77, 88, 79, 0.3);
+    width: 98%;
+    box-shadow:   0px 5px 24px 0px teal;
     margin-bottom: 20px;
 }
 
@@ -15,7 +15,7 @@
     text-align: center;
     vertical-align: auto;
     border: 1px solid;
-    border-color: rgb(131, 140, 138);
+    border-color: teal;
 }
 
 .table__caption{
