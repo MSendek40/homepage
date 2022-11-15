@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formularze</title>
+    <title>O mnie Marek Sendek</title>
+    <meta property="og:image" content="images/rozpocznij.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/container.css">
+    <link rel="stylesheet" href="CSS/navigation.css">
     <link rel="stylesheet" href="CSS/table.css">
     <link rel="stylesheet" href="CSS/section.css">
     <link rel="stylesheet" href="CSS/header.css">
@@ -29,29 +31,27 @@
 
 
     <header class="header">
-        <h1> Coaching - bo człowiek zapiera dech </h1>
+        <p> Dlaczego coaching? ... bo człowiek zapiera dech
+        <p>
     </header>
 
+    <nav class="navigation">
+        <h1> Menu </h1>
+        <ul class="navigation__list">
 
-    <nav>
-        <h2> Menu </h2>
-        <ul>
-            <a href="#o-mnie">
-                <li> O mnie </li>
-            </a>
-            <a href="#coaching">
-                <li> Coaching </li>
-            </a>
-            <a href="#oferta">
-                <li>oferta</li>
-            </a>
-            <a href="#oferta">
-                <li>oferta</li>
-            </a>
+            <li>
+                <a class="navigation__element" href="#o-mnie"> O mnie</a>
+            </li>
+            <li>
+                <a class="navigation__element" href="#coaching"> Coaching </a>
+            </li>
+            <li>
+                <a class="navigation__element" href="#oferta"> Oferta </a>
+            </li>
+            <li>
+                <a class="navigation__element" href="#kontakt"> Kontakt </a>
+            </li>
 
-            <a href="#kontakt">
-                <li>Kontakt</li>
-            </a>
         </ul>
     </nav>
 
@@ -70,7 +70,7 @@
             </article>
             <article>
                 <p>
-                    W wolnych chwilach jeżdżę na nartach, rodzinnie chodzimu po górach. Lubie gry planszowe, gram w
+                    W wolnych chwilach jeżdżę na nartach, rodzinnie chodzimy po górach. Lubię grać w gry planszowe, w
                     szybkie szachy i <i>Scrabble</i>. <br>
                     Od kilku tygodni uczę się programowania na kursie Frontend Developer.
                 </p>
@@ -80,17 +80,17 @@
         <section class="section" id="coaching">
             <h2> Czym jest coaching? </h2>
             <article>
-                <p>jest to metoda pracy indywidualnej, służąca rozwojowi osoby coachowanej – <i>coachee</i> .
-                    Coaching nie jest <em> psychoterapią, doradztwem czy mentoringiem </em>. Znacząco również różni się od treningu motywacyjnego często mylonego z nim. Jest formą profesjonalnego, indywidualnego wsparcia, w partnerskiej relacji i bezpiecznej atmosferze. Coaching głównie koncentruje się na teraźniejszości i przyszłości.
-                    Celem procesu coachingowego jest realizacja celów, na jakie Ty, jako klient i ja w roli coacha się umówimy. </p>
+                <p> Jest to metoda pracy indywidualnej, służąca rozwojowi osoby coachowanej – <i>coachee</i> .
+                    Coaching nie jest <em> psychoterapią, doradztwem czy mentoringiem </em>. Znacząco również różni się
+                    od treningu motywacyjnego często mylonego z nim. Jest formą profesjonalnego, indywidualnego
+                    wsparcia, w partnerskiej relacji i bezpiecznej atmosferze. Coaching głównie koncentruje się na
+                    teraźniejszości i przyszłości.
+                    Celem procesu coachingowego jest realizacja celów, na jakie Ty, jako klient i ja w roli coacha się
+                    umówimy. </p>
             </article>
-
         </section>
-
-        
-        <div class="container__table">
+        <div class="table__container">
             <table class="table">
-
                 <caption class="table__caption"> Polecane książki na temat coachingu</caption>
                 <tr class="table__row">
                     <th class="table__cell" scope="col"> Tytuł </th>
@@ -116,17 +116,13 @@
                     <td class="table__cell">Coaching odczarowany </td>
                     <td class="table__cell"> Robert Grzybek</td>
                 </tr>
-
             </table>
         </div>
-
         <section class="section" id="oferta">
             <h2> Oferta </h2>
             <p> Indywidualne sesje coachingowe mogą być poświęcone poniższym zagadnieniom oraz wszystkim tym nad czym
                 chcesz pracować, a jest możliwe poprzez coaching. </p>
-
-
-            <ul>
+            <ul class="section__offer">
                 <li> Praca z poczuciem własnej wartości </li>
                 <li> Obniżenie poziomu stresu </li>
                 <li> Zmiana nawyków </li>
@@ -141,13 +137,11 @@
             </ul>
             <article>
                 <p> Pierwsza sejsa jest sesją organizacyjną i jest bezpłatna. Na niej ustalamy nad czym chcesz pracować
-                    i
-                    czy wogóle coaching jest dla Ciebie dobrą metodą rozwojową. Jedna sesja coachingowa trwa 1,5 h. Cały
-                    proces może trwać od 1 do kilkunasty sesji. Cena za sejsę ustalana jest indywidualnie.
+                    i czy wogóle coaching jest dla Ciebie dobrą metodą rozwojową. Jedna sesja coachingowa trwa 1,5 h.
+                    Cały proces może trwać od 1 do kilkunasty sesji. Cena za sejsę ustalana jest indywidualnie.
                 </p>
             </article>
         </section>
-
     </main>
     <aside>
         <footer id="kontakt">
@@ -159,7 +153,6 @@
             <span class="footerItem2"> <a class="contactLink" href="tel:691 516 965"> tel: 691 516 965</a> </span>
         </footer>
     </aside>
-
     <p><button class="button"> Zmiana tło na <span class="themeName"> pomaranczowy </span> </button></div>
     </p>
 
