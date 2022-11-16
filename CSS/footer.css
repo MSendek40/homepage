@@ -27,6 +27,10 @@
     color: beige;
 }
 
+.footer__item--contact{
+    font-weight: 700;
+    
+}
 
 .footer__item--contact{
     margin-left: 10px;
