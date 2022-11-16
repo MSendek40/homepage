@@ -1,38 +1,37 @@
-.footer{
+.footer {
     border: 1px solid;
     background-color: black;
     color: silver;
     border-radius: 10px;
 }
 
-.footer__item{
+.footer__item {
     margin-left: 50px;
 }
 
-.footer__item--mail{
+.footer__item--mail {
     text-decoration: none;
     color: silver;
 }
 
-.footer__item--mail:hover{
+.footer__item--mail:hover {
     color: beige;
 }
 
-.footer__item--phone{
+.footer__item--phone {
     text-decoration: none;
     color: silver;
 }
 
-.footer__item--phone:hover{
+.footer__item--phone:hover {
     color: beige;
 }
 
-.footer__item--contact{
+.footer__item--contact {
     font-weight: 700;
-    
+
 }
 
-.footer__item--contact{
+.footer__item--contact {
     margin-left: 10px;
 }
-
