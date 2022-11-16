@@ -1,9 +1,13 @@
 .header{
     border: 1px solid;
-    border-color: gold;
+    border-color: silver;
     border-radius: 5px;
     background-color: black;
     margin-top: 10px;
-    padding: 10px;
-    color: gold;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: silver;
+    font-family: "Allura", cursive;
+    font-style: italic;
 }
+
