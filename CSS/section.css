@@ -1,6 +1,7 @@
 
 
 .section{
+    background-color: rgb(175, 231, 231);
     border: 1px solid;
     border-color: teal;
     border-radius: 10px;

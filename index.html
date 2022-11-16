@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="CSS/table.css">
     <link rel="stylesheet" href="CSS/section.css">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/button.css">
     <script defer src="JS/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,18 +29,13 @@
 
 <body class="container">
 
-
-
-
     <header class="header">
         <p> Dlaczego coaching? ... bo człowiek zapiera dech
-        <p>
+        </p>
     </header>
-
     <nav class="navigation">
-        <h1> Menu </h1>
+        <div class="navigation__menu">  <h1> Menu </h1></div> 
         <ul class="navigation__list">
-
             <li>
                 <a class="navigation__element" href="#o-mnie"> O mnie</a>
             </li>
@@ -51,12 +48,9 @@
             <li>
                 <a class="navigation__element" href="#kontakt"> Kontakt </a>
             </li>
-
         </ul>
     </nav>
-
-    <main class="main">
-
+    <main>
         <section class="section" id="o-mnie">
             <h2> O mnie </h2>
             <article>
@@ -143,19 +137,17 @@
             </article>
         </section>
     </main>
-    <aside>
-        <footer id="kontakt">
+        <footer class="footer" id="kontakt">
 
-            <span> Kontakt: </span>
-            <span> <a class="contactLink" href="mailto:marek.sendek@gmail.com"> e-mail:
+            <span class="footer__item--contact"> Kontakt: </span>
+            <span class="footer__item">  <a class="footer__item--mail" href="mailto:marek.sendek@gmail.com"> e-mail:
                     marek.sendek@gmail.com</a>
             </span>
-            <span class="footerItem2"> <a class="contactLink" href="tel:691 516 965"> tel: 691 516 965</a> </span>
+            <span class="footer__item"> <a class="footer__item--phone" href="tel:691 516 965"> tel: 691 516 965</a> 
+            </span>
         </footer>
-    </aside>
-    <p><button class="button"> Zmiana tło na <span class="themeName"> pomaranczowy </span> </button></div>
-    </p>
-
+    
+<p> <button class="button"> zmiana tła </button></p>
 
 
 </body>
