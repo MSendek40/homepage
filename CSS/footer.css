@@ -27,11 +27,7 @@
     color: beige;
 }
 
-.footer__item--contact {
+.footer__contact {
     font-weight: 700;
-
-}
-
-.footer__item--contact {
     margin-left: 10px;
 }

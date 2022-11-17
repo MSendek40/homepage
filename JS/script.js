@@ -5,6 +5,8 @@ let themeName = document.querySelector(".themeName");
 
 button.addEventListener("click", () => {
     container.classList.toggle("orange");
-    if (container.classList.contains("orange")) { themeName.innerText = "jasne"; }
-    else { themeName.innerText = "pomaranczowe" }
+
+themeName.innerText=container.classList.contains("orange")? "jasne" : "pomaranczowe"
+
+   
 }); 

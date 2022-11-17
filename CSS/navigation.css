@@ -1,36 +1,32 @@
-.navigation{
+.navigation {
     background-color: rgb(175, 231, 231);
     border: 1px solid;
     border-color: teal;
     border-radius: 10px;
     padding: 10px;
     padding-left: 10px;
-    box-shadow:  5px 5px 0 teal;
-    line-height: 1,7;
+    box-shadow: 5px 5px 0 teal;
+    line-height: 1, 7;
     max-width: auto;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.navigation__menu{
+.navigation__menu {
     margin-left: 35px;
 }
 
-.navigation__list{
+.navigation__list {
     list-style: none;
     line-height: 2;
 }
 
-.navigation__element{
+.navigation__link {
     text-decoration: none;
     font-weight: 700;
     color: black;
 }
 
-.navigation__element:hover{
+.navigation__link:hover {
     color: teal;
-}
-/*sprawdzic kolor po kliknieciu
-.navigation__element:click{
-    color: rgb(2, 64, 64)
 }

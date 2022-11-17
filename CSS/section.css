@@ -12,8 +12,18 @@
     margin-bottom: 20px;
 }
 
-.section__offer {
+.section__list {
     line-height: 2;
     font-weight: 700;
     padding-left: 20px;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+    border: 1px inset teal;
+    box-shadow: 5px 5px 0 teal;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(175, 231, 231);
 }

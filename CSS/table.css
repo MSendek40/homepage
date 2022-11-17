@@ -1,11 +1,3 @@
-.table__container {
-    overflow-x: auto;
-    border: 1px inset teal;
-    box-shadow: 5px 5px 0 teal;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-}
 
 .table {
     border-collapse: collapse;
@@ -19,6 +11,18 @@
     border: 1px solid;
     border-color: teal;
     color: black;
+    text-align: center;
+}
+
+.table__cell--header {
+    padding: 20px;
+    text-align: center;
+    vertical-align: auto;
+    border: 1px solid;
+    border-color: teal;
+    color: black;
+    text-align: center;
+    font-style: italic;
 }
 
 .table__caption {
@@ -28,11 +32,17 @@
 }
 
 .table__row {
-    color: rgb(228, 239, 239);
+    color: rgb(0, 0, 0);
+}
+.table__row--even{
+    color: white;
 }
 
 .table__row:nth-child(even) {
-    background-color: rgb(44, 234, 234);
+    background-color: rgb(26, 89, 89);
+}
+.table__row:nth-child(odd) {
+    background-color: rgb(241, 253, 253);
 }
 
 .table__row:hover {
